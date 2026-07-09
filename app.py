@@ -15,7 +15,7 @@ model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.set_page_config(page_title="AI Learning Buddy", page_icon="🎓")
 
-st.title("🎓 AI Learning Buddy PARVATHY")
+st.title("🎓 AI Learning Buddy")
 
 topic = st.text_input("Enter a Topic")
 
